@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.static('public'));
 
 // Routes
-const matseðillRoutes = require('./routes/matseðill');
+const matseðillRoutes = require('./routes/matsedill');
 const gullfossRoutes = require('./routes/gullfoss');
 
 app.use('/', matseðillRoutes);
